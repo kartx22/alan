@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import nltk
+nltk.download()
 import os
 import re
 from language import grammar, vocabulary
