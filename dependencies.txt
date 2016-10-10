@@ -1,0 +1,37 @@
+
+#NTLK
+
+pip install -U nltk
+
+#PocketSphinx on Mac
+
+brew install cmu-pocketsphinx
+
+#If on Ububtu/Linux based system
+
+git clone https://github.com/cmusphinx/sphinxbase.git
+cd sphinxbase/
+./autogen.sh
+make
+sudo make install
+
+export LD_LIBRARY_PATH=/usr/local/lib
+
+#Any issue on installing pocketsphinx visit http://jrmeyer.github.io/installation/2016/01/09/Installing-CMU-Sphinx-on-Ubuntu.html
+
+#BeautifulSoup
+
+pip install beautifulsoup4
+
+#SpeechRecognition
+
+pip install SpeechRecognition
+
+#festival on linux
+
+sudo apt-get install festival
+
+
+
+
+
