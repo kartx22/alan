@@ -31,6 +31,9 @@ pip install SpeechRecognition
 
 sudo apt-get install festival
 
+#Requests
+
+pip install requests
 
 
 
