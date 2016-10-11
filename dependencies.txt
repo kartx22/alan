@@ -35,6 +35,10 @@ sudo apt-get install festival
 
 pip install requests
 
+#Sqlite3
+
+sudo apt install sqlite3
+
 
 
 
